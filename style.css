@@ -1,0 +1,92 @@
+body {
+  width: 100vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(172, 145, 198, 0.665);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+nav {
+  color: rgb(242, 242, 242);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: rgba(172, 145, 198, 0.329);
+  border-bottom-color: rgba(172, 145, 198, 0.739);
+  height: 30px;
+  width: 350px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+#input::placeholder {
+  color: rgb(242, 242, 242);
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+#button {
+  background-color: rgba(172, 145, 198, 0.329);
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  color: rgb(242, 242, 242);
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: rgba(172, 145, 198, 0.329);
+  border-bottom-color: rgba(172, 145, 198, 0.739);
+  height: 30px;
+  width: 350px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 10px;
+  color: rgb(242, 242, 242);
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+input[type=text i] {
+  color: rgb(242, 242, 242);
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
